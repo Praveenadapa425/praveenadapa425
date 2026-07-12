@@ -77,19 +77,93 @@ praveenadapa425@github:~$ cat experience.txt
 ---
 
 ### 🚀 Technical Projects
+
 ```bash
-praveenadapa425@github:~$ cat projects.txt
+praveenadapa425@github:~/projects$ tree -L 2
 ```
 
-#### 📡 [Real-Time Streaming RAG Application](https://github.com/Praveenadapa425/realtime-rag-fastapi)
-* **Description:** A document search and retrieval application featuring real-time stream token query results over WebSockets.
-* **Key Achievements:** Decoupled data ingestion pipelines using background workers and Redis, minimizing query latency.
-* **Tech Stack:** Python, FastAPI, React, WebSockets, Redis, ChromaDB, Docker, Ollama.
+```text
+projects/
+├── realtime-rag-fastapi/
+│   ├── AI-powered document retrieval
+│   ├── Real-time token streaming
+│   ├── Semantic search
+│   └── Dockerized deployment
+│
+├── codesync/
+│   ├── Competitive programming dashboard
+│   ├── Firebase authentication
+│   ├── Real-time leaderboard
+│   └── Responsive UI
+│
+├── event-driven-notification-service/
+│   ├── AWS SNS
+│   ├── AWS SQS
+│   ├── Docker
+│   └── Event-driven architecture
+│
+└── personal-portfolio/
+    ├── React
+    ├── Tailwind CSS
+    ├── Responsive design
+    └── Custom domain
 
-#### 📊 [CodeSync -- Competitive Programmer's Dashboard](https://codesync.praveen.qzz.io)
-* **Description:** A dashboard aggregating coder metrics across Competitive Programming platforms into a real-time leaderboard view.
-* **Key Achievements:** Integrated multi-platform profiles and secured platform user authentication via Firebase.
-* **Tech Stack:** JavaScript, TailwindCSS, Node.js, Firebase (Auth + Firestore), Vercel.
+4 directories, 16 files
+```
+
+<details open>
+<summary><b>📡 Real-Time Streaming RAG Application</b></summary>
+
+Production-ready **Retrieval-Augmented Generation (RAG)** application featuring semantic document search and real-time token streaming using WebSockets.
+
+**Tech Stack:** Python • FastAPI • React • WebSockets • Redis • ChromaDB • Docker • Ollama
+
+🔗 **Repository:**
+https://github.com/Praveenadapa425/realtime-rag-fastapi
+
+</details>
+
+<details>
+<summary><b>📊 CodeSync – Competitive Programmer's Dashboard</b></summary>
+
+A full-stack dashboard that aggregates competitive programming profiles into a unified interface with authentication and real-time leaderboards.
+
+**Tech Stack:** JavaScript • Node.js • Firebase • Firestore • Tailwind CSS • Vercel
+
+🌐 **Live Demo:**
+https://codesync.praveen.qzz.io
+
+🔗 **Repository:**
+https://github.com/Praveenadapa425/codesync
+
+</details>
+
+<details>
+<summary><b>☁️ Event-Driven Notification Service</b></summary>
+
+Cloud-native notification service demonstrating asynchronous messaging using **AWS SNS** and **AWS SQS** with an event-driven architecture.
+
+**Tech Stack:** AWS SNS • AWS SQS • Docker • Java
+
+🔗 **Repository:**
+https://github.com/Praveenadapa425/Event-Driven-Notification-Service-with-AWS-SQS-and-SNS
+
+</details>
+
+<details>
+<summary><b>🌐 Personal Portfolio Website</b></summary>
+
+Modern portfolio website showcasing projects, certifications, technical skills, and professional achievements.
+
+**Tech Stack:** React • Tailwind CSS • JavaScript
+
+🌐 **Website:**
+https://praveen.qzz.io
+
+🔗 **Repository:**
+https://github.com/Praveenadapa425/Personal-Portfolio-Website
+
+</details>
 
 ---
 
