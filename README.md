@@ -76,6 +76,97 @@ praveenadapa425@github:~$ cat experience.txt
 
 ---
 
+### 🚀 Technical Projects
+
+```bash
+praveenadapa425@github:~/projects$ tree -L 2
+```
+
+```text
+projects/
+├── realtime-rag-fastapi/
+│   ├── AI-powered document retrieval
+│   ├── Real-time token streaming
+│   ├── Semantic search
+│   └── Dockerized deployment
+│
+├── codesync/
+│   ├── Competitive programming dashboard
+│   ├── Firebase authentication
+│   ├── Real-time leaderboard
+│   └── Responsive UI
+│
+├── event-driven-notification-service/
+│   ├── AWS SNS
+│   ├── AWS SQS
+│   ├── Docker
+│   └── Event-driven architecture
+│
+└── personal-portfolio/
+    ├── React
+    ├── Tailwind CSS
+    ├── Responsive design
+    └── Custom domain
+
+4 directories, 16 files
+```
+
+<details open>
+<summary><b>📡 Real-Time Streaming RAG Application</b></summary>
+
+Production-ready **Retrieval-Augmented Generation (RAG)** application featuring semantic document search and real-time token streaming using WebSockets.
+
+**Tech Stack:** Python • FastAPI • React • WebSockets • Redis • ChromaDB • Docker • Ollama
+
+🔗 **Repository:**
+https://github.com/Praveenadapa425/realtime-rag-fastapi
+
+</details>
+
+<details>
+<summary><b>📊 CodeSync – Competitive Programmer's Dashboard</b></summary>
+
+A full-stack dashboard that aggregates competitive programming profiles into a unified interface with authentication and real-time leaderboards.
+
+**Tech Stack:** JavaScript • Node.js • Firebase • Firestore • Tailwind CSS • Vercel
+
+🌐 **Live Demo:**
+https://codesync.praveen.qzz.io
+
+🔗 **Repository:**
+https://github.com/Praveenadapa425/codesync
+
+</details>
+
+<details>
+<summary><b>☁️ Event-Driven Notification Service</b></summary>
+
+Cloud-native notification service demonstrating asynchronous messaging using **AWS SNS** and **AWS SQS** with an event-driven architecture.
+
+**Tech Stack:** AWS SNS • AWS SQS • Docker • Java
+
+🔗 **Repository:**
+https://github.com/Praveenadapa425/Event-Driven-Notification-Service-with-AWS-SQS-and-SNS
+
+</details>
+
+<details>
+<summary><b>🌐 Personal Portfolio Website</b></summary>
+
+Modern portfolio website showcasing projects, certifications, technical skills, and professional achievements.
+
+**Tech Stack:** React • Tailwind CSS • JavaScript
+
+🌐 **Website:**
+https://praveen.qzz.io
+
+🔗 **Repository:**
+https://github.com/Praveenadapa425/Personal-Portfolio-Website
+
+</details>
+
+---
+
 ### 🏆 Credentials & Highlights
 ```bash
 praveenadapa425@github:~$ cat accomplishments.txt
