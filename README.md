@@ -1,9 +1,7 @@
 # 📟 Terminal Session: Praveen Adapa
 
 <p align="center">
-  <code>🔴 🟡 🟢 praveenadapa425@github:~</code>
-  <br/>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=24&amp;pause=1000&amp;color=00FF00&amp;background=0D1117&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=60&amp;lines=praveenadapa425%40github%3A~%24+whoami;Praveen+Adapa;B.Tech+CSE+Student;AWS+Certified+Developer" alt="Typing SVG" />
+  <img src="terminal.svg" width="100%" alt="Terminal Session Header" />
 </p>
 
 <p align="center">
@@ -17,10 +15,6 @@ praveenadapa425@github:~$ cat current_status.txt
 🚧 Currently building: [PLACEHOLDER — ask me what I'm working on now]
 ```
 
-╭──────────────────────────────────────────╮
-│  SYSTEM MODULE: PROFILE DIAGNOSTICS      │
-╰──────────────────────────────────────────╯
-
 ### 👤 Profile Diagnostics
 ```bash
 praveenadapa425@github:~$ cat about.txt
@@ -29,10 +23,6 @@ praveenadapa425@github:~$ cat about.txt
 * 🔍 **Current Status:** 4th-year undergraduate student seeking Software Engineering, Backend, and Cloud Developer roles.
 * 📍 **Location:** Rajamahendravaram, Andhra Pradesh, India 🇮🇳
 * 💡 **Brief Bio:** I am a passionate developer focused on building secure full-stack systems, managing cloud infrastructure, and solving complex algorithmic challenges. ▋
-
-╭──────────────────────────────────────────╮
-│  SYSTEM MODULE: TECH STACK & SKILLS      │
-╰──────────────────────────────────────────╯
 
 ### 🛠️ Tech Stack & Skills
 ```bash
@@ -85,10 +75,6 @@ Docker      █████████████░░░░░░░  65%
 SQL         ████████████████░░░░  80%
 ```
 
-╭──────────────────────────────────────────╮
-│  SYSTEM MODULE: PROFESSIONAL EXPERIENCE  │
-╰──────────────────────────────────────────╯
-
 ### 💼 Professional Experience
 ```bash
 praveenadapa425@github:~$ cat experience.txt
@@ -97,10 +83,6 @@ praveenadapa425@github:~$ cat experience.txt
 * Built and optimized cloud architectures using **AWS EC2, S3, Lambda, and IAM**.
 * Authored serverless functions automating recurring cloud configurations and resource deployments.
 * Enforced least-privilege resource access policies across development and staging environments.
-
-╭──────────────────────────────────────────╮
-│  SYSTEM MODULE: TECHNICAL PROJECTS       │
-╰──────────────────────────────────────────╯
 
 ### 🚀 Technical Projects
 
@@ -191,10 +173,6 @@ https://github.com/Praveenadapa425/Personal-Portfolio-Website
 
 </details>
 
-╭──────────────────────────────────────────╮
-│  SYSTEM MODULE: CREDENTIALS & HIGHLIGHTS │
-╰──────────────────────────────────────────╯
-
 ### 🏆 Credentials & Highlights
 ```bash
 praveenadapa425@github:~$ cat accomplishments.txt
@@ -211,10 +189,6 @@ praveenadapa425@github:~$ cat accomplishments.txt
 * 🔴 **CodeChef:** Rating: **1300+** | [Profile](https://www.codechef.com/users/praveenadapa42)
 * 🌟 **HackerRank:** **5 Star** in C, Java, SQL | [Profile](https://www.hackerrank.com/profile/parveenadapa425)
 
-╭──────────────────────────────────────────╮
-│  SYSTEM MODULE: GITHUB STATUS            │
-╰──────────────────────────────────────────╯
-
 ### 📈 GitHub Status
 ```bash
 praveenadapa425@github:~$ curl -s stats/overall
@@ -227,10 +201,6 @@ praveenadapa425@github:~$ curl -s stats/overall
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Praveenadapa425&amp;title_color=00FF00&amp;text_color=00FF00&amp;bg_color=0D1117&amp;icon_color=00FF00&amp;border_color=00FF00&amp;hide_border=false" alt="GitHub Streak" />
   </a>
 </p>
-
-╭──────────────────────────────────────────╮
-│  SYSTEM MODULE: CONTACT & CONNECTION     │
-╰──────────────────────────────────────────╯
 
 ### 📞 Contact & Connection
 ```bash
