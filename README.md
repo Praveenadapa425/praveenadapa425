@@ -1,20 +1,9 @@
 # 📟 Terminal Session: Praveen Adapa
 
 <p align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%" height="auto">
-    <!-- Terminal Window Frame -->
-    <rect width="800" height="120" rx="8" fill="#0D1117" stroke="#00FF00" stroke-width="1.5"/>
-    <!-- Header Bar -->
-    <path d="M0,8 A8,8 0 0,1 8,0 H792 A8,8 0 0,1 800,8 V30 H0 Z" fill="#161B22"/>
-    <!-- Dots -->
-    <circle cx="20" cy="15" r="6" fill="#FF5F56"/>
-    <circle cx="40" cy="15" r="6" fill="#FFBD2E"/>
-    <circle cx="60" cy="15" r="6" fill="#27C93F"/>
-    <!-- Window Title -->
-    <text x="400" y="20" fill="#8B949E" font-family="Courier, monospace" font-size="14" text-anchor="middle">praveenadapa425@github:~</text>
-    <!-- Content Typing SVG -->
-    <image href="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=24&amp;pause=1000&amp;color=00FF00&amp;background=00000000&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=60&amp;lines=praveenadapa425%40github%3A~%24+whoami;Praveen+Adapa;B.Tech+CSE+Student;AWS+Certified+Developer" x="100" y="45" width="600" height="60" />
-  </svg>
+  <code>🔴 🟡 🟢 praveenadapa425@github:~</code>
+  <br/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=24&amp;pause=1000&amp;color=00FF00&amp;background=0D1117&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=60&amp;lines=praveenadapa425%40github%3A~%24+whoami;Praveen+Adapa;B.Tech+CSE+Student;AWS+Certified+Developer" alt="Typing SVG" />
 </p>
 
 <p align="center">
