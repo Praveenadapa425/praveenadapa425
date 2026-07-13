@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="dev.png" width="100%" alt="Developer Dashboard" style="border-radius: 8px;" />
+  <img src="dev_single.png" width="100%" alt="Developer Dashboard" style="border-radius: 8px;" />
 </p>
 
 ```bash
