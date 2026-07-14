@@ -1,11 +1,12 @@
-# 📟 Terminal Session: Praveen Adapa
+<!-- # 📟 Terminal Session: Praveen Adapa -->
 
-<p align="center">
-  <img src="terminal.svg" width="100%" alt="Terminal Session Header" />
-</p>
 
 <p align="center">
   <img src="dev_single.png" width="100%" alt="Developer Dashboard" style="border-radius: 8px;" />
+</p>
+
+<p align="center">
+  <img src="terminal.svg" width="100%" alt="Terminal Session Header" />
 </p>
 
 ```bash
