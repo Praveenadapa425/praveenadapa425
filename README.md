@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="dev2.png" width="100%" alt="Developer Dashboard" style="border-radius: 8px;" />
+  <img src="dev3.png" width="100%" alt="Developer Dashboard" style="border-radius: 8px;" />
 </p>
 
 <p align="center">
