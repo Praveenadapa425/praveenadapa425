@@ -10,7 +10,7 @@
 </p>
 
 ```bash
-praveenadapa425@github:~$ cat current_status.txt
+praveen@github:~$ cat current_status.txt
 ```
 ```text
 🚧 Currently building: [PLACEHOLDER — ask me what I'm working on now]
@@ -18,7 +18,7 @@ praveenadapa425@github:~$ cat current_status.txt
 
 ### 👤 Profile Diagnostics
 ```bash
-praveenadapa425@github:~$ cat about.txt
+praveen@github:~$ cat about.txt
 ```
 * 🎓 **Education:** B.Tech in Computer Science (IoT) at Aditya College of Engineering & Technology (2023 - 2027) | **CGPA:** 8.6/10
 * 🔍 **Current Status:** 4th-year undergraduate student seeking Software Engineering, Backend, and Cloud Developer roles.
@@ -27,7 +27,7 @@ praveenadapa425@github:~$ cat about.txt
 
 ### 🛠️ Tech Stack & Skills
 ```bash
-praveenadapa425@github:~$ tree -L 2 skills/
+praveen@github:~$ tree -L 2 skills/
 ```
 ```text
 skills/
@@ -78,7 +78,7 @@ SQL         ████████████████░░░░  80%
 
 ### 💼 Professional Experience
 ```bash
-praveenadapa425@github:~$ cat experience.txt
+praveen@github:~$ cat experience.txt
 ```
 💼 **AWS Cloud Development Intern** @ **Technical Hub Pvt. Ltd.** *(May 2025 – June 2025)*
 * Built and optimized cloud architectures using **AWS EC2, S3, Lambda, and IAM**.
@@ -88,7 +88,7 @@ praveenadapa425@github:~$ cat experience.txt
 ### 🚀 Technical Projects
 
 ```bash
-praveenadapa425@github:~/projects$ tree -L 2
+praveen@github:~/projects$ tree -L 2
 ```
 
 ```text
@@ -176,7 +176,7 @@ https://github.com/Praveenadapa425/Personal-Portfolio-Website
 
 ### 🏆 Credentials & Highlights
 ```bash
-praveenadapa425@github:~$ cat accomplishments.txt
+praveen@github:~$ cat accomplishments.txt
 ```
 
 #### 🥇 Professional Certifications
@@ -192,7 +192,7 @@ praveenadapa425@github:~$ cat accomplishments.txt
 
 ### 📈 GitHub Status
 ```bash
-praveenadapa425@github:~$ curl -s stats/overall
+praveen@github:~$ curl -s stats/overall
 ```
 <p align="left">
   <a href="https://github.com/Praveenadapa425">
@@ -205,7 +205,7 @@ praveenadapa425@github:~$ curl -s stats/overall
 
 ### 📞 Contact & Connection
 ```bash
-praveenadapa425@github:~$ ping -c 4 contact_methods
+praveen@github:~$ ping -c 4 contact_methods
 ```
 <p align="left">
   <a href="https://www.linkedin.com/in/praveen-adapa-162179290/">
