@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="1600"
-     height="800"
-     viewBox="0 0 1600 800"
+     width="1200"
+     height="600"
+     viewBox="0 0 1200 600"
      fill="none">
 
   <defs>
@@ -20,7 +20,7 @@
 
     <!-- Neon Glow -->
     <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -32,7 +32,7 @@
       <feDropShadow
           dx="0"
           dy="0"
-          stdDeviation="10"
+          stdDeviation="6"
           flood-color="#8BFF00"
           flood-opacity="0.18"/>
     </filter>
@@ -41,27 +41,27 @@
 
       .title{
         font-family:JetBrains Mono,Consolas,monospace;
-        font-size:46px;
+        font-size:32px;
         font-weight:700;
         fill:url(#green);
       }
 
       .terminal{
         font-family:JetBrains Mono,Consolas,monospace;
-        font-size:28px;
+        font-size:20px;
         fill:#7CFC00;
       }
 
       .heading{
         font-family:JetBrains Mono,Consolas,monospace;
-        font-size:25px;
+        font-size:18px;
         font-weight:700;
         fill:#8BFF00;
       }
 
       .text{
         font-family:JetBrains Mono,Consolas,monospace;
-        font-size:21px;
+        font-size:15px;
         fill:#F3F4F6;
       }
 
@@ -82,27 +82,27 @@
   <rect
       x="10"
       y="10"
-      width="1580"
-      height="780"
-      rx="24"
+      width="1180"
+      height="580"
+      rx="16"
       fill="url(#bg)"
       stroke="#7CFC00"
       stroke-width="2"/>
 
   <!-- Title Icon Placeholder -->
   <rect
-      x="60"
-      y="48"
-      width="40"
-      height="40"
-      rx="8"
+      x="40"
+      y="38"
+      width="32"
+      height="32"
+      rx="6"
       fill="#10151B"
       stroke="#7CFC00"/>
 
   <!-- Title -->
   <text
-      x="120"
-      y="82"
+      x="85"
+      y="62"
       class="title"
       filter="url(#glow)">
       PROFILE DIAGNOSTICS
@@ -110,8 +110,8 @@
 
   <!-- Terminal Command -->
   <text
-      x="60"
-      y="135"
+      x="40"
+      y="110"
       class="terminal">
       ❯ cat about.md
   </text>
@@ -123,18 +123,18 @@
     <!-- SECTION 1: Education                       -->
     <!-- ========================================== -->
     <rect
-        x="60"
-        y="175"
-        width="80"
-        height="80"
-        rx="15"
+        x="40"
+        y="135"
+        width="60"
+        height="60"
+        rx="12"
         fill="#10151B"
         stroke="#7CFC00"
         stroke-width="2"
         filter="url(#shadow)"/>
 
     <!-- Graduation Cap Icon -->
-    <g transform="translate(80 185) scale(0.95)">
+    <g transform="translate(48 148) scale(0.55)">
       <path
         d="M40 8 L8 22 L40 36 L72 22 Z"
         fill="none"
@@ -149,10 +149,10 @@
         stroke-linejoin="round"/>
     </g>
 
-    <text x="180" y="200" class="heading">Education</text>
-    <text x="180" y="240" class="text">B.Tech in Computer Science (IoT)</text>
-    <text x="180" y="275" class="text">Aditya College of Engineering &amp; Technology (2023 – 2027)</text>
-    <text x="180" y="310" class="text">
+    <text x="120" y="150" class="heading">Education</text>
+    <text x="120" y="180" class="text">B.Tech in Computer Science (IoT)</text>
+    <text x="120" y="205" class="text">Aditya College of Engineering &amp; Technology (2023 – 2027)</text>
+    <text x="120" y="230" class="text">
       <tspan class="label">CGPA:</tspan> 8.6 / 10
     </text>
 
@@ -160,18 +160,18 @@
     <!-- SECTION 2: Current Status                  -->
     <!-- ========================================== -->
     <rect
-        x="60"
-        y="325"
-        width="80"
-        height="80"
-        rx="15"
+        x="40"
+        y="260"
+        width="60"
+        height="60"
+        rx="12"
         fill="#10151B"
         stroke="#7CFC00"
         stroke-width="2"
         filter="url(#shadow)"/>
 
     <!-- Search Icon -->
-    <g transform="translate(80 338) scale(0.95)">
+    <g transform="translate(53 273) scale(0.55)">
       <circle
           cx="24"
           cy="24"
@@ -189,27 +189,27 @@
           stroke-linecap="round"/>
     </g>
 
-    <text x="180" y="350" class="heading">Current Status</text>
-    <text x="180" y="390" class="text">Final-year Computer Science undergraduate</text>
-    <text x="180" y="425" class="text">Open to Software Engineering,</text>
-    <text x="180" y="460" class="text">Backend and Cloud Engineering roles</text>
+    <text x="120" y="275" class="heading">Current Status</text>
+    <text x="120" y="305" class="text">Final-year Computer Science undergraduate</text>
+    <text x="120" y="330" class="text">Open to Software Engineering,</text>
+    <text x="120" y="355" class="text">Backend and Cloud Engineering roles</text>
 
     <!-- ========================================== -->
     <!-- SECTION 3: Location                        -->
     <!-- ========================================== -->
     <rect
-        x="60"
-        y="475"
-        width="80"
-        height="80"
-        rx="15"
+        x="40"
+        y="385"
+        width="60"
+        height="60"
+        rx="12"
         fill="#10151B"
         stroke="#7CFC00"
         stroke-width="2"
         filter="url(#shadow)"/>
 
     <!-- Location Pin Icon -->
-    <g transform="translate(80 488) scale(0.95)">
+    <g transform="translate(53 395) scale(0.55)">
       <path
         d="M30 6 C18 6 10 15 10 28 C10 47 30 68 30 68 C30 68 50 47 50 28 C50 15 42 6 30 6Z"
         fill="none"
@@ -225,26 +225,26 @@
         stroke-width="4"/>
     </g>
 
-    <text x="180" y="500" class="heading">Location</text>
-    <text x="180" y="540" class="text">Kakinada, Andhra Pradesh, India</text>
-    <text x="180" y="575" class="text">Open to Remote • Hybrid • On-site</text>
+    <text x="120" y="400" class="heading">Location</text>
+    <text x="120" y="430" class="text">Kakinada, Andhra Pradesh, India</text>
+    <text x="120" y="455" class="text">Open to Remote • Hybrid • On-site</text>
 
     <!-- ========================================== -->
     <!-- SECTION 4: About                           -->
     <!-- ========================================== -->
     <rect
-        x="60"
-        y="600"
-        width="80"
-        height="80"
-        rx="15"
+        x="40"
+        y="485"
+        width="60"
+        height="60"
+        rx="12"
         fill="#10151B"
         stroke="#7CFC00"
         stroke-width="2"
         filter="url(#shadow)"/>
 
     <!-- Light Bulb Icon -->
-    <g transform="translate(80 613) scale(0.95)">
+    <g transform="translate(53 492) scale(0.55)">
       <path
         d="M30 8 C18 8 10 18 10 30 C10 39 14 45 20 50 C23 53 24 57 24 60 H36 C36 57 37 53 40 50 C46 45 50 39 50 30 C50 18 42 8 30 8Z"
         fill="none"
@@ -269,18 +269,18 @@
         stroke-linecap="round"/>
     </g>
 
-    <text x="180" y="625" class="heading">About</text>
-    <text x="180" y="665" class="text">Building secure, scalable backend systems,</text>
-    <text x="180" y="700" class="text">cloud-native applications, and AI solutions.</text>
+    <text x="120" y="500" class="heading">About</text>
+    <text x="120" y="530" class="text">Building secure, scalable backend systems,</text>
+    <text x="120" y="555" class="text">cloud-native applications, and AI solutions.</text>
 
   </g>
 
   <!-- Bottom Accent Line -->
   <line
-      x1="60"
-      y1="745"
-      x2="1540"
-      y2="745"
+      x1="40"
+      y1="585"
+      x2="1160"
+      y2="585"
       stroke="#7CFC00"
       stroke-width="1.5"
       opacity="0.35"/>
