@@ -1,0 +1,463 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1600"
+     height="1040"
+     viewBox="0 0 1600 1040"
+     fill="none">
+
+  <defs>
+
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090C10"/>
+      <stop offset="100%" stop-color="#050608"/>
+    </linearGradient>
+
+    <!-- Neon Green -->
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8BFF00"/>
+      <stop offset="100%" stop-color="#56F000"/>
+    </linearGradient>
+
+    <!-- Neon Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Card Shadow -->
+    <filter id="shadow">
+      <feDropShadow
+          dx="0"
+          dy="0"
+          stdDeviation="12"
+          flood-color="#8BFF00"
+          flood-opacity="0.18"/>
+    </filter>
+
+    <style>
+
+      .title{
+        font-family:JetBrains Mono,Consolas,monospace;
+        font-size:58px;
+        font-weight:700;
+        fill:url(#green);
+      }
+
+      .terminal{
+        font-family:JetBrains Mono,Consolas,monospace;
+        font-size:34px;
+        fill:#7CFC00;
+      }
+
+      .heading{
+        font-family:JetBrains Mono,Consolas,monospace;
+        font-size:30px;
+        font-weight:700;
+        fill:#8BFF00;
+      }
+
+      .text{
+        font-family:JetBrains Mono,Consolas,monospace;
+        font-size:26px;
+        fill:#F3F4F6;
+      }
+
+      .bold{
+        font-weight:700;
+      }
+
+      .label{
+        fill:#8BFF00;
+        font-weight:700;
+      }
+
+    </style>
+
+  </defs>
+
+  <!-- Main Background -->
+
+  <rect
+      x="10"
+      y="10"
+      width="1580"
+      height="1020"
+      rx="24"
+      fill="url(#bg)"
+      stroke="#7CFC00"
+      stroke-width="2"/>
+
+  <!-- Title Icon Placeholder -->
+
+  <rect
+      x="60"
+      y="48"
+      width="48"
+      height="48"
+      rx="10"
+      fill="#10151B"
+      stroke="#7CFC00"/>
+
+  <!-- Title -->
+
+  <text
+      x="135"
+      y="86"
+      class="title"
+      filter="url(#glow)">
+      PROFILE DIAGNOSTICS
+  </text>
+
+  <!-- Terminal Command -->
+
+  <text
+      x="60"
+      y="165"
+      class="terminal">
+
+      ❯ cat about.md
+
+  </text>
+
+  <!-- Start Content -->
+
+  <g id="content">
+    <!-- ========================= -->
+  <!-- Education -->
+  <!-- ========================= -->
+
+  <!-- Icon Box -->
+  <rect
+      x="60"
+      y="210"
+      width="110"
+      height="110"
+      rx="18"
+      fill="#10151B"
+      stroke="#7CFC00"
+      stroke-width="2"
+      filter="url(#shadow)"/>
+
+  <!-- Graduation Cap Icon -->
+
+  <g transform="translate(85 235) scale(1.15)">
+
+    <path
+      d="M40 8 L8 22 L40 36 L72 22 Z"
+      fill="none"
+      stroke="#7CFC00"
+      stroke-width="4"
+      stroke-linejoin="round"/>
+
+    <path
+      d="M18 28 V42 L40 52 L62 42 V28"
+      fill="none"
+      stroke="#7C00"
+      stroke-width="4"
+      stroke-linejoin="round"/>
+
+  </g>
+
+  <!-- Heading -->
+
+  <text
+      x="220"
+      y="245"
+      class="heading">
+
+      Education
+
+  </text>
+
+  <!-- Degree -->
+
+  <text
+      x="220"
+      y="300"
+      class="text">
+
+      B.Tech in Computer Science (IoT)
+
+  </text>
+
+  <!-- College -->
+
+  <text
+      x="220"
+      y="350"
+      class="text">
+
+      Aditya College of Engineering &amp; Technology (2023 – 2027)
+
+  </text>
+
+  <!-- CGPA -->
+
+  <text
+      x="220"
+      y="405"
+      class="text">
+
+      <tspan class="label">CGPA:</tspan>
+      8.6 / 10
+
+  </text>
+    <!-- ========================= -->
+  <!-- Current Status -->
+  <!-- ========================= -->
+
+  <!-- Icon Box -->
+  <rect
+      x="60"
+      y="470"
+      width="110"
+      height="110"
+      rx="18"
+      fill="#10151B"
+      stroke="#7CFC00"
+      stroke-width="2"
+      filter="url(#shadow)"/>
+
+  <!-- Search Icon -->
+  <g transform="translate(88 497)">
+    <circle
+        cx="24"
+        cy="24"
+        r="18"
+        fill="none"
+        stroke="#7CFC00"
+        stroke-width="4"/>
+
+    <line
+        x1="38"
+        y1="38"
+        x2="56"
+        y2="56"
+        stroke="#7CFC00"
+        stroke-width="4"
+        stroke-linecap="round"/>
+  </g>
+
+  <!-- Heading -->
+
+  <text
+      x="220"
+      y="505"
+      class="heading">
+
+      Current Status
+
+  </text>
+
+  <!-- Status -->
+
+  <text
+      x="220"
+      y="560"
+      class="text">
+
+      Final-year Computer Science undergraduate
+
+  </text>
+
+  <text
+      x="220"
+      y="605"
+      class="text">
+
+      Open to Software Engineering,
+
+  </text>
+
+  <text
+      x="220"
+      y="650"
+      class="text">
+
+      Backend and Cloud Engineering roles
+
+  </text>
+    <!-- ========================= -->
+  <!-- Location -->
+  <!-- ========================= -->
+
+  <!-- Icon Box -->
+  <rect
+      x="60"
+      y="690"
+      width="110"
+      height="110"
+      rx="18"
+      fill="#10151B"
+      stroke="#7CFC00"
+      stroke-width="2"
+      filter="url(#shadow)"/>
+
+  <!-- Location Pin Icon -->
+  <g transform="translate(84 712)">
+
+    <path
+      d="M30 6
+         C18 6 10 15 10 28
+         C10 47 30 68 30 68
+         C30 68 50 47 50 28
+         C50 15 42 6 30 6Z"
+      fill="none"
+      stroke="#7CFC00"
+      stroke-width="4"
+      stroke-linejoin="round"/>
+
+    <circle
+      cx="30"
+      cy="28"
+      r="8"
+      fill="none"
+      stroke="#7CFC00"
+      stroke-width="4"/>
+
+  </g>
+
+  <!-- Heading -->
+
+  <text
+      x="220"
+      y="725"
+      class="heading">
+
+      Location
+
+  </text>
+
+  <!-- Content -->
+
+  <text
+      x="220"
+      y="780"
+      class="text">
+
+      Kakinada, Andhra Pradesh, India
+
+  </text>
+
+  <text
+      x="220"
+      y="825"
+      class="text">
+
+      Open to Remote • Hybrid • On-site
+
+  </text>
+    <!-- ========================= -->
+  <!-- About -->
+  <!-- ========================= -->
+
+  <!-- Icon Box -->
+  <rect
+      x="60"
+      y="870"
+      width="110"
+      height="110"
+      rx="18"
+      fill="#10151B"
+      stroke="#7CFC00"
+      stroke-width="2"
+      filter="url(#shadow)"/>
+
+  <!-- Light Bulb Icon -->
+  <g transform="translate(86 892)">
+
+    <path
+      d="M30 8
+         C18 8 10 18 10 30
+         C10 39 14 45 20 50
+         C23 53 24 57 24 60
+         H36
+         C36 57 37 53 40 50
+         C46 45 50 39 50 30
+         C50 18 42 8 30 8Z"
+      fill="none"
+      stroke="#7CFC00"
+      stroke-width="4"
+      stroke-linejoin="round"/>
+
+    <line
+      x1="24"
+      y1="66"
+      x2="36"
+      y2="66"
+      stroke="#7CFC00"
+      stroke-width="4"
+      stroke-linecap="round"/>
+
+    <line
+      x1="25"
+      y1="74"
+      x2="35"
+      y2="74"
+      stroke="#7CFC00"
+      stroke-width="4"
+      stroke-linecap="round"/>
+
+  </g>
+
+  <!-- Heading -->
+
+  <text
+      x="220"
+      y="905"
+      class="heading">
+
+      About
+
+  </text>
+
+  <!-- Content -->
+
+  <text
+      x="220"
+      y="955"
+      class="text">
+
+      Building secure, scalable backend systems,
+
+  </text>
+
+  <text
+      x="220"
+      y="995"
+      class="text">
+
+      cloud-native applications, and AI solutions.
+
+  </text>
+    </g>
+
+  <!-- Bottom Accent Line -->
+  <line
+      x1="60"
+      y1="1010"
+      x2="1540"
+      y2="1010"
+      stroke="#7CFC00"
+      stroke-width="1.5"
+      opacity="0.35"/>
+
+  <!-- Footer -->
+
+  <text
+      x="800"
+      y="1000"
+      text-anchor="middle"
+      font-family="JetBrains Mono, Consolas, monospace"
+      font-size="18"
+      fill="#7CFC00"
+      opacity="0.7">
+
+      <!-- Engineering solutions that are secure, scalable, and built to last. -->
+
+  </text>
+
+</svg>

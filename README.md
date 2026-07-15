@@ -9,6 +9,12 @@
   <img src="terminal.svg" width="100%" alt="Terminal Session Header" />
 </p>
 
+<p align="center">
+  <img src="Profile_Diagnostics.svg" width="100%" alt="Profile Diagnostics" />
+</p>
+
+
+
 ```bash
 praveen@github:~$ cat current_status.txt
 ```
