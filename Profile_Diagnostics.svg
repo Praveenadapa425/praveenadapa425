@@ -89,7 +89,7 @@
       stroke="#7CFC00"
       stroke-width="2"/>
 
-  <!-- Title Icon Placeholder -->
+  <!-- Title Icon Container -->
   <rect
       x="40"
       y="38"
@@ -98,6 +98,11 @@
       rx="6"
       fill="#10151B"
       stroke="#7CFC00"/>
+  <!-- Person Icon -->
+  <g transform="translate(40 38)" stroke="#7CFC00" stroke-width="2.5" fill="none">
+    <circle cx="16" cy="11" r="5" />
+    <path d="M 6 26 C 6 20, 26 20, 26 26" stroke-linecap="round" />
+  </g>
 
   <!-- Title -->
   <text
